@@ -1,0 +1,4 @@
+select 
+coalesce(sum(case when transaction_type_id = 1 then amount else 0 end),0) as entradas, 
+coalesce(sum(case when transaction_type_id = 3 then amount else 0 end),0) as saidas
+from transaction where created_at::date between to_date('?','DD/MM/YYYY') and to_date('?','DD/MM/YYYY');
