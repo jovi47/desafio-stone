@@ -1,0 +1,32 @@
+{
+  "buys": [
+    {
+      "items": [
+        {
+          "name": "Blue Berrys",
+          "quantity": 0.554,
+          "price": 4550
+        },
+        {
+          "name": "Package of Beans",
+          "quantity": 2,
+          "price": 1380
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "name": "English Potato",
+          "quantity": 2,
+          "price": 7859
+        },
+        {
+          "name": "Hot Pepper",
+          "quantity": 2,
+          "price": 1029300
+        }
+      ]
+    }
+  ]
+}
