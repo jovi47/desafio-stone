@@ -38,7 +38,7 @@ de todos os meses que possuírem transações naquele ano.
 um passa a lista de compras e o outro a lista de e-mails, assim já simulei uma espécie requisição HTTP, onde é um pequeno serviço que recebe um "request" em e retorna um "response".
 
 
-## <a id="banco-de-dados" href="./buy_service\readme.md">Como executar o código</a>
+## <a id="banco-de-dados" href="./buy_service\README.md">Como executar o código</a>
 
 ## Pensamentos durante o desenvolvimento
 
