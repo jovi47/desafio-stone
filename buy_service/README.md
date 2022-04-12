@@ -28,3 +28,9 @@
  Escreva BuyService.apportion_payment_based_on_buys("diretoriodoseuarquivodeemails.json","diretoriodassuascomparas.json")
  Veja os retornos da função no seu terminal :)
 ```
+
+### Testes a implementar
+
+ - [ ] Caso as chaves não existam no JSON
+ - [ ] Caso o valor não seja inteiro
+ - [ ] Caso o valor seja negativo

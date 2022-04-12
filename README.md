@@ -30,23 +30,22 @@ de todos os meses que possuírem transações naquele ano.
 
 <br>
 
-# Segunda Etapa | Programação 
+# Segunda Etapa | Programação (buy_service) 
 
-## Regras aplicadas
+* [Regras aplicadas](#regras-aplicadas-no-desenvolvimento)
+
+
+## Regras aplicadas no Desenvolvimento
 
 * Utilizei a entrada de testes com 2 arquivos .json lidos pela minha função, onde 
-um passa a lista de compras e o outro a lista de e-mails, assim já simulei uma espécie requisição HTTP, onde é um pequeno serviço que recebe um "request" em e retorna um "response".
+um passa a lista de compras e o outro a lista de e-mails, assim já simulei uma espécie requisição HTTP, onde é um pequeno serviço que recebe um "request", retornando o map desejado.
 
+### Tive várias dúvidas ao que realmente iria ser implementado, então vou levantar alguns pontos do meu pensamento
+
+* Pensei em fazer uma API com todo o CRUD, entretanto não vi motivo de criar tantas coisas pra uma simples função. 
+* Acredito que o peso/unidade/pacote do preço , afinal geralmente quando realizamos uma compra isso não importa muito já que compramos: 1 pacote de arroz, 3 bombons, 0.500 gramas de queijo, ja fica implicito na propria quantidade e na definição do preço, se tivessemos uma caixa de bombom, ela seria um Novo Item com seu próprio preço pelo pacote.
+* O retorno da função está ocorrendo em centavos, mas facilmente poderia ser colocado em formato de BRL, ou qualquer Currency que fosse necessária, entretanto não parecia fazer sentido nesse caso específico.
 
 ## <a id="banco-de-dados" href="./buy_service\README.md">Como executar o código</a>
-
-## Pensamentos durante o desenvolvimento
-
-### Durante o desenvolvimento desta parte em específico tive várias dúvidas ao que realmente iria ser feito pois a implementação é relativamente simples então vou levantar alguns pontos do meu pensamento
-
-* O requisito pedia explicitamente uma solução clara e objetiva.
-* Pensei em fazer uma API com todo o CRUD, entretanto não vi motivo de criar tantas coisas pra uma simples função mais uma vez retomando o primeiro item dessa lista. 
-* O elixir é uma linguagem funcional, sua forma não é para lidar com todas as regras de uma maneira complicada, quando sua principal função é fazer realmente coisas escaláveis de maneiras simples e de forma atômica.
-
-
-
+ * Configurações
+ * Testando e Executando
