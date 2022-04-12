@@ -28,8 +28,6 @@ Com as informações que foram dadas, segue o DER(Diagrama Entidade Relacional)
 * O arquivo script, contém a consulta para retornar as entradas e saídas 
 de todos os meses que possuírem transações naquele ano. 
 
-<br>
-
 # Segunda Etapa | Programação (buy_service) 
 
 * [Regras aplicadas](#regras-aplicadas-no-desenvolvimento)
