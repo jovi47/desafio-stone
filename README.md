@@ -31,7 +31,7 @@ Com as informações que foram dadas, segue o DER(Diagrama Entidade Relacional)
 
 # Segunda Etapa | Programação (buy_service)
 
-## <a id="banco-de-dados" href="./tree/main/buy_service">Como executar o código</a>
+## <a id="banco-de-dados" href="./buy_service">Como executar o código</a>
 
 - Configurações
 - Testando e Executando
