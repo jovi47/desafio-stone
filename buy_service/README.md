@@ -22,11 +22,11 @@
 ```cmd
  mix test
 ```
-### Para brincar um pouco com a função feita
+### Para executar o código
 ```cmd
  iex -S mix
- Escreva BuyService.apportion_payment_based_on_buys("diretoriodoseuarquivodeemails.json","diretoriodassuascomparas.json")
- Veja os retornos da função no seu terminal :)
+ Digite/ Copie e cole esse comando: BuyService.apportion_payment_based_on_buys("./test/mocks/emails.json","./test/mocks/buys.json")
+ Veja o retorno da função no seu terminal. :)
 ```
 
 ### Testes a implementar
